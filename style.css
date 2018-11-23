@@ -1,0 +1,26 @@
+/* Created by: Kevin Tang
+Date created: 23/11/2018
+Last modified: 24/11/2018 */
+
+/* THIS FILE IS TO IMPORT FONTS */
+
+/* IMPORTING OPEN SANS FONT */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* IMPORTING INDIE FLOWER FONT */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+/* SETTING UP NORTHWELL FONT */
+
+@font-face {
+    font-family: 'northwellregular';
+    src: url('Fonts/Northwell/northwell-webfont.eot');
+    src: url('Fonts/Northwell/northwell-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/Northwell/northwell-webfont.woff2') format('woff2'),
+         url('Fonts/Northwell/northwell-webfont.woff') format('woff'),
+         url('Fonts/Northwell/northwell-webfont.ttf') format('truetype'),
+         url('Fonts/Northwell/northwell-webfont.svg#northwellregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

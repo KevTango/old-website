@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<!-- Created by: Kevin Tang
+Date created: 23/11/2018
+Last modified: 23/11/2018 -->
+
+<!-- HOME PAGE -->
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<html lang="en">
+<head>
+	<title>Kevin Tang</title>
+	<link rel="icon" href="Images/personal-picture.JPG">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<style>
+
+/* Title Image */
+.centered {
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background {
+    /* The image used */
+    background-image: url("Images/mountains.jpg");
+	
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Setting background colour */
+body {
+    background-color: White;
+} 
+
+/* Title */
+h1 {
+    color: skyblue;
+    text-align: center;
+	font-family: 'Northwell', 'Indie Flower', serif;
+	font-size: 100px;
+}
+
+/* Subheading (CURRENTLY NOT USED)*/
+h2 {
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+	font-size: 28px;
+}
+
+/* Topic headings */
+h3 {
+    color: Black;
+	text-align: center;
+	/*font-family: 'Open Sans', serif;*/
+	font-family: 'Northwell', 'Indie Flower', serif;
+	font-size: 54px;
+}
+
+/* Centering Footer */
+h4 {
+	text-align: center;
+	font-family: 'Open Sans', serif;
+	color: Gray;
+	font-size: 12px;
+	background-color: gold;
+	margin: 0;
+    padding: 0;
+}
+
+h5 {
+	color: black;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+	font-size: 28px;
+}
+
+h6 {
+	color: black;
+	text-align: center;
+	font-family: 'Open Sans', serif;
+	font-size: 20px;
+}
+	
+/* Paragraphs */
+p {
+	color: black;
+	font-family: 'Open Sans', serif;
+	font-size: 20px;;
+}
+
+background-color: skyblue;
+}
+
+/* MAKING THE LOGO FIT THE TOOLBAR 
+.pull-left {
+	margin: 0;
+    padding: 0;
+	max-height: 100%;
+}*/
+
+
+/* Centering photo */
+#about-me-photo {
+	/*border-radius: 50%;*/
+	display: block;
+	float: right;
+	margin-right: 10px;
+}
+
+/* Setting a format for project titles */
+.project-titles {
+	font-family: 'Open Sans', serif;
+	text-align: center;
+	font-size: 18px;
+}
+
+/* Grouping images to make in centre */
+.icon-container {
+    border: 0;
+    text-align: center;
+}
+/* Preventing a border to be put on IE9 or earlier */
+.icons {
+	border: 0;
+	text-decoration: none;
+}
+
+</style>
+
+<body>
+<!-- 
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">Kevin Tang</a>
+		</div>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#about-me">About me</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="WebsiteCV.pdf"><strong>Click here to download CV</strong></a></li>
+		</ul>
+	</div>
+</nav>
+-->
+
+<!-- TITLE -->
+<body>
+<div class="background">
+	<div class="centered">
+		<h1>Kevin Tang</h1> 
+		<!--<h2>Always working to expand my horizon</h2> -->
+	</div>
+</div>
+
+<div class="container">
+
+<!-- ABOUT ME SECTION -->
+<a name="about-me"></a>
+<h3>About me</h3>
+<br>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<img id="about-me-photo" src="Images/personal-picture.JPG" alt="A photo of me" width="100%">
+	</div>
+	
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<p>I am currently a second-year student studying towards a Bachelor of Electrical and Electronics Engineering (Honours)
+		at the University of Auckland with an interest in the advancement of artificial intelligence and electronics. 
+		Fuelled by my curiosity to tinker with new technology to understand its capabilities, I am very eager to apply the knowledge learnt to stay in touch with the latest development in the technology sector. 
+		<br>
+		<br>
+		Currently, I am working on my personal projects and is always up for a challenge.</p>
+	</div>
+</div>
+
+<br>
+<br>
+
+<!-- PROJECTS -->
+<a name="projects"></a>
+<h3>Projects</h3>
+<br>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<img id="nybble-photo" src="Images/nybble.jpg" alt="A photo of Nybble" width="100%">
+	</div>
+	
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<strong class="project-titles"> Nybble (April 2019 - ) </strong>
+		<p>I pre-ordered Nybble from <a href="https://www.indiegogo.com/projects/nybble-world-s-cutest-open-source-robotic-kitten/" target="_blank" title="A link to the Indiegogo crowdfund page">Indiegogo</a>, 
+		I cannot wait to discover and be able to program this cute kitten!
+	</div>
+</div>
+
+<br>
+<br>
+
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<img id="about-me-photo" src="Images/arduino-uno.jpg" alt="A photo of an Arduino Uno" width="100%">
+	</div>
+	
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<strong class="project-titles"> Punch Activated Water Gun (June 2018 - Present) </strong>
+		<p>Inspired by Allen Pan’s <a href="https://www.hackster.io/Advanced/punch-activated-arm-flamethrowers-real-firebending-95bb80" target="_blank" title="A link to the project">Punch Activated Arm Flamethrowers</a>, 
+		my cousin and I are building a punch activated water gun. Currently, we are reworking the circuit to ensure that the solenoid valve is working as intended.
+		<br> 
+		Once the project is nearing completion, I will post the schematics and code on GitHub.</p>
+	</div>
+</div>
+
+<br>
+<br>
+
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<img id="about-me-photo" src="Images/209-project.PNG" alt="Project demonstration" width="100%">
+	</div>
+	
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<strong class="project-titles"> Wireless Energy Monitor (July 2018 - October 2018) </strong>
+		<p>For my ELECTENG 209 class, I had the pleasure of building a Wireless Energy Monitor with my group. The tasks I was assigned was the VHDL section where I had to upload what was being transmitted using UART
+		from the ATMega328PB microcontroller to the CPLD and I had to operate the oscilloscope and multimeter to debug circuit issues.</p>
+	</div>
+</div>
+
+<br>
+<br>
+
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<img id="about-me-photo" src="Images/website.jpg" alt="A photo of my website" width="100%">
+	</div>
+	
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<strong class="project-titles"> Personal Website (July 2018 and November 2018) </strong>
+		<p>While waiting for my parts to arrive for my punch activated water gun, I've decided on making my personal website to keep me occupied. 
+		I learnt HTML and CSS from <a href="https://codeavengers.com" target="_blank" title="A link to Code Avengers">Code Avengers</a> and 
+		<a href="https://www.w3schools.com/html/default.asp" target="_blank" title="A link to w3schools">w3schools</a> and made my own site from scratch in one week. 
+		All the source code for this project is on <a href="https://github.com/KevTango/KevTango.github.io" target="_blank" title="A link to my website's source code"> GitHub</a>.</p>
+	</div>
+</div>
+
+<br>
+<br>
+
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<img id="about-me-photo" src="Images/299-workshop.jpg" alt="Plumb bob and Holder" width="100%">
+	</div>
+	
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<strong class="project-titles"> Plumb bob and Pens and Phone/Business Card Holder (July 2018) </strong>
+		<p>For my ENGGEN 299 workshop, I got taught how to operate a lathe machine to make a plumb bob and make the initial shape for the pens and phone/business card holder. 
+		To create the final design, I had to use the mill machine to punch holes for the pen and make a slot to hold business cards and phones.</p>
+	</div>
+</div>
+
+<br>
+
+<!-- ICONS AND EMAIL-->
+<h6 id="Footer">For enquiries: kevin.tang2648@gmail.com</h6>
+<div class="icon-container">
+	<a class="icons" href="https://www.linkedin.com/in/kevintangnzl" target="_blank"> <img src="Images/linkedin.png" alt="LinkedIn logo by Axialis" width="50" height="50"> </a>
+	<a class="icons" href="https://github.com/KevTango/" target="_blank"> <img src="Images/github.png" alt="GitHub logo by Axialis" width="50" height="50"> </a>
+	<a class="icons" href="https://twitter.com/KevinTangNZ" target="_blank"> <img src="Images/twitter.png" alt="Twitter logo by Axialis" width="50" height="50"> </a> </div>
+</div>
+<br>
+
+<!-- FOOTER -->
+<h4>Background photo of Lake Taupo was taken by <a href="hhttps://unsplash.com/photos/73F4pKoUkM0" target="_blank" title="A link to the photo">Tobias Keller</a>
+<br>
+<a href="https://www.axialis.com/free/icons">Social media icons</a> by <a href="https://www.axialis.com">Axialis</a>
+<br>
+© 2018 Kevin Tang. All rights reserved </h4>
+</body>
+
+</div>
+
+</body>
+</html>
