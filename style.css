@@ -1,18 +1,16 @@
 /* Created by: Kevin Tang
 Date created: 23/11/2018
-Last modified: 24/11/2018 */
+Last modified: 10/01/2019 */
 
 /* THIS FILE IS TO IMPORT FONTS */
 
-/* IMPORTING OPEN SANS FONT */
+/* IMPORTING CEDARVILLE CURSIVE FONT */
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-/* IMPORTING INDIE FLOWER FONT */
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+/* IMPORTING ROBOTO FONT */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /* SETTING UP NORTHWELL FONT */
-
 @font-face {
     font-family: 'northwellregular';
     src: url('Fonts/Northwell/northwell-webfont.eot');
